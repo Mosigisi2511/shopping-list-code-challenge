@@ -37,8 +37,7 @@ function renderList() {
                 renderList();
             }
         });
-
-        listContainer.appendChild(itemElement);
+         listContainer.appendChild(itemElement);
     });
 }
 
