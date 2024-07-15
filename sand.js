@@ -4,7 +4,7 @@ let shoppingList = [];
 // Function to render the shopping list
 function renderList() {
     const listContainer = document.getElementById('listContainer');
-    listContainer.innerHTML = ''; // Clear previous items
+    listContainer.innerHTML = ''; 
 
     shoppingList.forEach((item, index) => {
         const itemElement = document.createElement('div');
@@ -58,5 +58,4 @@ document.getElementById('clearListBtn').addEventListener('click', () => {
     renderList();
 });
 
-// Initial rendering of the list
-renderList();
+// Initial rendering of the listrenderList();
